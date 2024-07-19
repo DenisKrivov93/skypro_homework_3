@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import mock_open, patch
 
-from utils.read_json import read_transactions_from_json
+from src.utils import read_transactions_from_json
 
 
 class TestReadTransactionsFromJson(unittest.TestCase):

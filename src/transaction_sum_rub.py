@@ -1,4 +1,4 @@
-from utils.external_api import ruble_exchange
+from src.external_api import ruble_exchange
 
 
 def transaction_sum_rub(transaction) -> float:

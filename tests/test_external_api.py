@@ -5,7 +5,7 @@ from unittest.mock import MagicMock, patch
 
 from dotenv import load_dotenv
 
-from utils.external_api import ruble_exchange
+from src.external_api import ruble_exchange
 
 load_dotenv()
 
